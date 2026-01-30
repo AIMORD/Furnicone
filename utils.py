@@ -50,7 +50,7 @@ def optimize_image(image):
     return img_byte_arr.getvalue()
 
 # ==========================================
-#  ☁️ CLOUDINARY UPLOAD (The New Part)
+# CLOUDINARY UPLOAD
 # ==========================================
 def upload_to_cloudinary(image_obj, folder="furnicon_inventory"):
     """
@@ -75,7 +75,7 @@ def upload_to_cloudinary(image_obj, folder="furnicon_inventory"):
         return None
 
 # ==========================================
-#  🤖 AI CORE FUNCTIONS
+# AI CORE FUNCTIONS
 # ==========================================
 
 def analyze_image_mock(image):
@@ -178,7 +178,7 @@ def generate_product_variations(original_image, ai_data= None, user_instructions
     return generated_images
 
 # ==========================================
-#  💾 DATABASE & PERSISTENCE
+# DATABASE & PERSISTENCE
 # ==========================================
 
 def init_db():
